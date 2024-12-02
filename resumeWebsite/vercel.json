@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "lamboVanCorvettePickupToyota/app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "lamboVanCorvettePickupToyota/app.py"
+      }
+    ]
+  }
+  
